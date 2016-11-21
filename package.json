@@ -1,24 +1,30 @@
 {
-    "name": "chat-example",
-    "version": "0.0.0",
-    "description": "",
-    "main": "server.js",
-    "author": "Marius Banea",
-    "test": "mocha spec",
-    "dependencies": {
-        "async": "~0.2.8",
-        "body-parser": "^1.15.2",
-        "express": "^3.2.6",
-        "mongoose": "^4.5.5",
-        "socket.io": "~0.9.14"
-    },
-    "scripts": {
-        "start": "node server.js"
-    },
-    "devDependencies": {
-        "chai": "^3.5.0",
-        "chai-http": "^3.0.0",
-        "mocha": "^2.5.3"
-    },
-    "license": "ISC"
+  "name": "thinkful-shopping-list-mongo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariusbanea/thinkful-shopping-list-mongo.git"
+  },
+  "author": "Marius Banea",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariusbanea/thinkful-shopping-list-mongo/issues"
+  },
+  "homepage": "https://github.com/mariusbanea/thinkful-shopping-list-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "mongodb": "^2.2.11",
+    "mongoose": "^4.5.9"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.0.2"
+  }
 }

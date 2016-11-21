@@ -108,4 +108,4 @@ app.use('*', function (req, res) {
 /* STEP 4 - server settings*/
 exports.app = app;
 exports.runServer = runServer;
-app.listen(process.env.PORT || 8080, process.env.IP);
+app.listen(process.env.PORT || 8888, process.env.IP);
